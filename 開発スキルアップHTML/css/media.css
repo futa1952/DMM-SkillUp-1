@@ -1,0 +1,87 @@
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 0 5px;
+  }
+  header {
+    height: 50px;
+    background: #EC715F;
+  }
+  img {
+    height: 50px;
+    width: 110px;
+  }
+  .main-visual {
+    width: 100%;
+    background-image: url("../img/code.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .main-text h1 {
+    font-size: 40px;
+  }
+  .main-text p {
+    font-size: 10px;
+  }
+  #portfolio {
+    padding-bottom: 90px;
+  }
+  .container-portfolio {
+    width: 90%;
+    padding: 0 5px;
+  }
+  .none {
+    display: none;
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .box-container {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+  .container-feature {
+    width: 90%;
+    padding: 0 5px;
+  }
+  .font-container {
+    display: flex; /* 子要素をflexboxで揃える */
+    flex-direction: column; /* 子要素をflexboxにより縦方向に揃える */
+    justify-content: center; /* 子要素をflexboxにより中央に配置する */
+    align-items: center;  /* 子要素をflexboxにより中央に配置する */
+  }
+  .profile-left {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .profile-right {
+    width: 90%;
+    text-align: center;
+  }
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-container {
+    width: 90%;
+    padding: 0 5px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-right {
+    padding-bottom: 90px;
+  }
+  .contact-box-left {
+    text-align: center;
+  }
+  .contact-box-right {
+    text-align: center;
+  }
+}
